@@ -1,0 +1,61 @@
+body {
+  font-family: 'Lora', serif;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url("dolphin.jpg");
+  height: 250px;
+  color: rgb(77, 77, 77);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: rgb(241, 241, 241);
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.link-medium {
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
